@@ -52,7 +52,7 @@ test_data_only_for_shops = [
 
 valid_update_data = {
     "file": os.path.join(os.path.dirname(settings.BASE_DIR), "data/shop1.yaml"),
-    "url": "https://raw.githubusercontent.com/b1augrana/py-diplom-final/master/data/shop1.yaml",
+    "url": "https://raw.githubusercontent.com/b1augrana/NetologyFD/main/data/shop1.yaml",
 }
 test_data_update_price_info = [
     [
