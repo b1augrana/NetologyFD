@@ -25,13 +25,15 @@
 
 ## Запуск проекта
 
-1. В директории _orders_ запустить docker-compose 
+1. Создать и заполнить файл .env
 
-    <code> docker-compose up --build</code>
+2. В директории _orders_ запустить docker-compose 
 
-2. Для доступа к админстративной панели Django создаем суперпользователя
+    <code>docker-compose up --build</code>
 
-    <code> docker-compose exec backend python manage.py createsuperuser</code>
+3. Для доступа к админстративной панели Django создаем суперпользователя
+
+    <code>docker-compose exec backend python manage.py createsuperuser</code>
 
 ## Адреса сервиса 
 
